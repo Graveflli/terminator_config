@@ -1,0 +1,32 @@
+[global_config]
+  enabled_plugins = CustomCommandsMenu, TestPlugin, ActivityWatch, TerminalShot, MavenPluginURLHandler
+[keybindings]
+[layouts]
+  [[default]]
+    
+    [[[child1]]]
+      
+      parent = window0
+      
+      profile = default
+      
+      type = Terminal
+    
+    [[[window0]]]
+      
+      parent = ""
+      
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#002b36"
+    background_darkness = 0.86
+    background_type = image
+    copy_on_selection = True
+    cursor_color = "#eee8d5"
+    font = Monospace 12
+    foreground_color = "#eee8d5"
+    scrollback_lines = 50000
+    use_system_font = False
+  [[New Profile]]
